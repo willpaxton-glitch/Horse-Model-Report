@@ -63,9 +63,19 @@
     background: var(--surface); border: 1px solid var(--border);
     border-radius: 10px; padding: 14px 20px;
     box-shadow: var(--shadow);
+    display: flex; gap: 24px; align-items: flex-start;
   }
+  .toc-races { flex: 1; min-width: 0; }
   .toc-title { font-weight: 600; font-size: 0.82em; text-transform: uppercase;
                letter-spacing: .06em; color: var(--text-muted); margin-bottom: 10px; }
+  .toc-gate-key {
+    flex-shrink: 0; width: 220px;
+    border-left: 1px solid var(--border); padding-left: 20px;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .toc-gate-key .toc-title { margin-bottom: 6px; }
+  .gate-key-row { display: flex; align-items: center; gap: 8px; }
+  .gate-key-desc { font-size: 0.76em; color: var(--text-muted); font-style: italic; }
   .toc-course-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
   .toc-course-row:last-child { margin-bottom: 0; }
   .toc-course-name { font-weight: 800; font-size: 0.97em; color: #111;
@@ -140,17 +150,6 @@
   .gate-mid    { background: #fef3cd; color: #7a5c00; }
   .gate-low    { background: #fde8e8; color: #a83030; }
 
-  /* ── Gate key (below TOC) ── */
-  .gate-key {
-    max-width: 1280px; margin: 0 auto 20px;
-    display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px;
-    padding: 8px 14px;
-    background: var(--surface2); border: 1px solid var(--border);
-    border-radius: 8px; font-size: 0.78em;
-  }
-  .gate-key-label { font-weight: 600; color: var(--text-muted);
-                    text-transform: uppercase; letter-spacing: .05em; }
-  .gate-key-desc  { color: var(--text-muted); font-style: italic; }
 
   /* ── Column label row ── */
   .col-labels {
@@ -266,7 +265,10 @@
     .page-header { flex-direction: column; align-items: flex-start; gap: 4px; }
     .page-meta   { text-align: left; }
 
-    .toc { padding: 12px 14px; }
+    .toc { padding: 12px 14px; flex-direction: column; }
+    .toc-gate-key { width: auto; border-left: none;
+                    border-top: 1px solid var(--border);
+                    padding-left: 0; padding-top: 12px; }
     .toc-course-row { gap: 8px; }
     .toc-course-name { min-width: 90px; font-size: 0.9em; }
     .toc-item { font-size: 0.88em; padding: 5px 11px; }
@@ -313,21 +315,21 @@
       <div class="page-subtitle">2026-03-15 &nbsp;·&nbsp; 22 races</div>
     </div>
     <div class="page-meta">
-      Generated 15 Mar 2026 10:02
+      Generated 15 Mar 2026 10:05
     </div>
   </div>
-<div class="toc"><div class="toc-title">Races</div>
+<div class="toc"><div class="toc-races"><div class="toc-title">Races</div>
 <div class="toc-course-row"><span class="toc-course-name">Chepstow</span><div class="toc-times"><a class="toc-item" href="#race-913386">14:10</a><a class="toc-item" href="#race-913385">14:45</a><a class="toc-item" href="#race-913382">15:20</a><a class="toc-item" href="#race-913381">15:55</a><a class="toc-item" href="#race-913384">16:30</a><a class="toc-item" href="#race-913383">17:05</a><a class="toc-item" href="#race-913387">17:40</a></div></div>
 <div class="toc-course-row"><span class="toc-course-name">Curragh</span><div class="toc-times"><a class="toc-item" href="#race-915208">13:25</a><a class="toc-item" href="#race-915209">14:00</a><a class="toc-item" href="#race-915210">14:35</a><a class="toc-item" href="#race-915211">15:10</a><a class="toc-item" href="#race-915212">15:45</a><a class="toc-item" href="#race-914904">16:20</a><a class="toc-item" href="#race-915213">16:55</a><a class="toc-item" href="#race-915214">17:30</a></div></div>
 <div class="toc-course-row"><span class="toc-course-name">Market Rasen</span><div class="toc-times"><a class="toc-item" href="#race-913390">13:47</a><a class="toc-item" href="#race-913391">14:22</a><a class="toc-item" href="#race-913392">14:57</a><a class="toc-item" href="#race-913393">15:32</a><a class="toc-item" href="#race-913389">16:07</a><a class="toc-item" href="#race-913388">16:42</a><a class="toc-item" href="#race-913394">17:17</a></div></div>
 </div>
-
-  <div class="gate-key">
-    <span class="gate-key-label">Race type:</span>
-    <span class="gate-badge gate-high">Formful race</span><span class="gate-key-desc">Good predictability</span>
-    <span class="gate-badge gate-mid">Mixed race</span><span class="gate-key-desc">Moderate predictability</span>
-    <span class="gate-badge gate-low">Tough race</span><span class="gate-key-desc">Unpredictable</span>
+  <div class="toc-gate-key">
+    <div class="toc-title">Race type key</div>
+    <div class="gate-key-row"><span class="gate-badge gate-high">Formful race</span><span class="gate-key-desc">Good predictability</span></div>
+    <div class="gate-key-row"><span class="gate-badge gate-mid">Mixed race</span><span class="gate-key-desc">Moderate predictability</span></div>
+    <div class="gate-key-row"><span class="gate-badge gate-low">Tough race</span><span class="gate-key-desc">Unpredictable</span></div>
   </div>
+</div>
   <div class="course-label course-label-first">Chepstow</div>
 
   <div class="race-card" id="race-913386">
