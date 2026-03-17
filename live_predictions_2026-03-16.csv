@@ -1,0 +1,147 @@
+off,course,race_name,going,dist_str,field_size,number,horse,age,sex_code,form,trainer,jockey,weight_lbs,official_rating,rpr_last,topspeed_last,headgear,win_norm_prob,place3_norm_prob,win_rank,place_rank,win_pct,place_pct
+14:15,Plumpton,More Radio Maiden Hurdle (GBB Race),Good To Soft,2m4f116y,8,8,Viscountess Nelson,6,M,4,Nicky Henderson,Nico de Boinville,154,,,,,0.22222401,0.1318784,1,4,22.2,13.2
+14:15,Plumpton,More Radio Maiden Hurdle (GBB Race),Good To Soft,2m4f116y,8,1,Escortkheops,6,G,723342,Laura Horsfall,Kevin Brogan,161,110.0,118.0,112.0,,0.1741264,0.15965553,2,2,17.4,16.0
+14:15,Plumpton,More Radio Maiden Hurdle (GBB Race),Good To Soft,2m4f116y,8,7,Lola De Magny,5,M,3,Andy Irvine,Caoilin Quinn,154,,98.0,62.0,,0.1537221,0.116376355,3,5,15.4,11.6
+14:15,Plumpton,More Radio Maiden Hurdle (GBB Race),Good To Soft,2m4f116y,8,4,Our Amigo,6,G,35,Nick Gifford,James Davies,161,,107.0,57.0,,0.14631233,0.17155379,4,1,14.6,17.2
+14:15,Plumpton,More Radio Maiden Hurdle (GBB Race),Good To Soft,2m4f116y,8,2,Idaho Fire,5,G,7P,Paul Nicholls,Harry Cobden,161,,93.0,46.0,,0.10399174,0.14165178,5,3,10.4,14.2
+14:15,Plumpton,More Radio Maiden Hurdle (GBB Race),Good To Soft,2m4f116y,8,3,Lunar Morning,5,G,P,Max Comley,David Bass,161,,,,p,0.10399174,0.10990782,5,7,10.4,11.0
+14:15,Plumpton,More Radio Maiden Hurdle (GBB Race),Good To Soft,2m4f116y,8,5,West Along,6,G,263,Richard Rowe,Tom Cannon,161,,84.0,48.0,,0.07121693,0.116376355,7,5,7.1,11.6
+14:15,Plumpton,More Radio Maiden Hurdle (GBB Race),Good To Soft,2m4f116y,8,6,Approaching Storm,5,M,900,Nick Gifford,Tabitha Worsley,154,,67.0,30.0,,0.024414789,0.052599944,8,8,2.4,5.3
+14:30,Ffos Las,Plan A Conditional Jockeys' Mares' Handicap Hurdle,Soft,2m4f,6,3,Queen Of Steel,6,M,1-5312,Fergal OBrien,Fern OBrien,161,93.0,98.0,74.0,p,0.29210508,0.20343114,1,1,29.2,20.3
+14:30,Ffos Las,Plan A Conditional Jockeys' Mares' Handicap Hurdle,Soft,2m4f,6,5,Neeps And Tatties,7,M,-50747,Richard Phillips,Finn Lambert,152,84.0,100.0,73.0,h,0.16112208,0.17951822,2,2,16.1,18.0
+14:30,Ffos Las,Plan A Conditional Jockeys' Mares' Handicap Hurdle,Soft,2m4f,6,1,Hellfire Princess,9,M,4-0164,Kerry Lee,Benjamin Macey,168,100.0,99.0,92.0,p,0.13669321,0.15951876,3,4,13.7,16.0
+14:30,Ffos Las,Plan A Conditional Jockeys' Mares' Handicap Hurdle,Soft,2m4f,6,2,Man Maid,5,M,744U,Harriet Dickin,Callum Pritchard,167,99.0,92.0,72.0,,0.13669321,0.15033482,3,5,13.7,15.0
+14:30,Ffos Las,Plan A Conditional Jockeys' Mares' Handicap Hurdle,Soft,2m4f,6,4,Rest Is The Best,5,M,07642,Harriet Dickin,Murray Dodd,152,84.0,104.0,67.0,p,0.13669321,0.17951822,3,2,13.7,18.0
+14:30,Ffos Las,Plan A Conditional Jockeys' Mares' Handicap Hurdle,Soft,2m4f,6,6,Half Pint Daisy,7,M,40886,Clive Boultbee-Brooks,Ned Fox,142,74.0,99.0,80.0,,0.13669321,0.1276788,3,6,13.7,12.8
+14:45,Plumpton,Southern Cranes & Access Ltd Handicap Chase (GBB Race),Good,2m219y,5,3,Alto Alto,9,G,4-5924,Chris Gordon,Freddie Gordon,167,108.0,116.0,108.0,v,0.41317108,0.24547623,1,1,41.3,24.5
+14:45,Plumpton,Southern Cranes & Access Ltd Handicap Chase (GBB Race),Good,2m219y,5,4,Kool Kid,6,G,633361,Joe Tizzard,Brendan Powell,167,108.0,80.0,33.0,,0.18166324,0.20110111,2,3,18.2,20.1
+14:45,Plumpton,Southern Cranes & Access Ltd Handicap Chase (GBB Race),Good,2m219y,5,5,Angels Dream,8,G,F16-6P,Gary & Josh Moore,Caoilin Quinn,142,83.0,115.0,59.0,p,0.18166324,0.17944536,2,4,18.2,17.9
+14:45,Plumpton,Southern Cranes & Access Ltd Handicap Chase (GBB Race),Good,2m219y,5,2,Delpotro,6,G,-1P124,Charlie Longsdon,David Bass,168,109.0,111.0,108.0,ht,0.118542336,0.2114384,4,2,11.9,21.1
+14:45,Plumpton,Southern Cranes & Access Ltd Handicap Chase (GBB Race),Good,2m219y,5,1,Park Annonciade,8,G,8-24P3,Sarah Humphrey,Richie McLernon,168,109.0,114.0,111.0,t,0.104960084,0.16253887,5,5,10.5,16.3
+15:00,Ffos Las,Good Luck Barry Murphy Handicap Chase,Soft,2m3f83y,7,2,Boston Joe,10,G,42-33P,Rebecca Curtis,Ben Jones,167,95.0,109.0,80.0,,0.25876755,0.16272359,1,3,25.9,16.3
+15:00,Ffos Las,Good Luck Barry Murphy Handicap Chase,Soft,2m3f83y,7,1,Walkinthewoods,9,G,-142U6,Mrs C Williams,Osian Radford,168,96.0,103.0,60.0,,0.20703593,0.18648891,2,2,20.7,18.6
+15:00,Ffos Las,Good Luck Barry Murphy Handicap Chase,Soft,2m3f83y,7,4,El Rojo Grande,9,G,521112,Katy Price,Shane Quinlan,160,88.0,100.0,93.0,,0.20625731,0.16272359,3,3,20.6,16.3
+15:00,Ffos Las,Good Luck Barry Murphy Handicap Chase,Soft,2m3f83y,7,5,Henry Box Brown,9,G,2U8234,Mrs C Williams,Ellis Collier,156,84.0,103.0,85.0,,0.13097776,0.20286416,4,1,13.1,20.3
+15:00,Ffos Las,Good Luck Barry Murphy Handicap Chase,Soft,2m3f83y,7,7,Ferando,6,G,PP4-F,Barry John Murphy,Callum Pritchard,149,77.0,95.0,22.0,t,0.09220191,0.12437489,5,5,9.2,12.4
+15:00,Ffos Las,Good Luck Barry Murphy Handicap Chase,Soft,2m3f83y,7,3,Benignitas,9,M,33-62P,Gordon Treacy,Rian Corcoran,166,94.0,97.0,45.0,,0.06269859,0.09555387,6,6,6.3,9.6
+15:00,Ffos Las,Good Luck Barry Murphy Handicap Chase,Soft,2m3f83y,7,6,Port Or Starboard,9,G,-96442,Bernard Llewellyn,Lee Edwards,154,82.0,98.0,74.0,p,0.042061005,0.065271,7,7,4.2,6.5
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,1,Risk It All,5,G,6-3202,Gary & Josh Moore,Freddie Mitchell,168,98.0,102.0,94.0,,0.41641918,0.24651773,1,1,41.6,24.7
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,4,Kingston Bresil,6,G,39-453,Lawney Hill,Charlie Maggs,158,88.0,99.0,89.0,,0.18607596,0.1562375,2,2,18.6,15.6
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,2,Kill The Groove,6,M,33P624,Karen Jewell,Tom Cannon,166,96.0,98.0,56.0,tp,0.159458,0.15347235,3,3,15.9,15.3
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,8,Charles Morin,5,G,6480U-,Pat Phelan,Sean Houlihan,151,81.0,92.0,25.0,,0.067686275,0.1344088,4,4,6.8,13.4
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,6,Foinix,6,G,556,Jim & Suzi Best,Richie McLernon,153,83.0,85.0,43.0,,0.05012126,0.0681082,5,6,5.0,6.8
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,7,Jacquetta,5,G,08P,Gary & Josh Moore,Caoilin Quinn,152,82.0,88.0,35.0,,0.049244717,0.0681082,6,6,4.9,6.8
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,5,My Lovely Horse,6,M,6P6P3,David Bridgwater,Brendan Powell,153,83.0,94.0,76.0,p,0.04475223,0.11255698,7,5,4.5,11.3
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,9,Somkiyr,5,G,55P6,Andy Irvine,Philip Armson,148,78.0,93.0,70.0,,0.021979704,0.025782224,8,9,2.2,2.6
+15:15,Plumpton,William Henry Robinson Novices' Handicap Hurdle,Good To Soft,1m7f195y,9,3,Major Major,6,G,575,Cynthia Woods,James Best,160,90.0,92.0,73.0,,0.004262694,0.034808073,9,8,0.4,3.5
+15:30,Ffos Las,Celtic Subaru Novices' Hurdle (GBB Race),Soft,2m4f,4,2,Whiskey Yankee,5,G,2-15,Sam Thomas,Dylan Johnston,166,,126.0,121.0,t,0.45964482,0.33949038,1,1,46.0,33.9
+15:30,Ffos Las,Celtic Subaru Novices' Hurdle (GBB Race),Soft,2m4f,4,1,Lon Chaney,6,G,5219,Olly Murphy,Sean Bowen,166,126.0,127.0,117.0,,0.40692613,0.3246745,2,2,40.7,32.5
+15:30,Ffos Las,Celtic Subaru Novices' Hurdle (GBB Race),Soft,2m4f,4,4,Soldier For Glory,6,G,3,Rebecca Curtis,Ben Jones,159,,114.0,105.0,,0.11301133,0.24492386,3,3,11.3,24.5
+15:30,Ffos Las,Celtic Subaru Novices' Hurdle (GBB Race),Soft,2m4f,4,3,Makinbecon,6,G,46,Barry John Murphy,Shane Fenelon,159,,92.0,36.0,,0.020417651,0.09091125,4,4,2.0,9.1
+15:45,Plumpton,Southern Cranes & Access Ltd Mares' Handicap Hurdle,Good To Soft,2m1f169y,4,3,La Marquise,6,M,18-543,Jamie Snowden,Joe Anderson,161,111.0,118.0,90.0,p,0.37011117,0.25147685,1,2,37.0,25.1
+15:45,Plumpton,Southern Cranes & Access Ltd Mares' Handicap Hurdle,Good To Soft,2m1f169y,4,4,A Tickatickatiming,8,M,834-24,Sheena West,Marc Goldstein,144,94.0,119.0,88.0,,0.22878996,0.2661877,2,1,22.9,26.6
+15:45,Plumpton,Southern Cranes & Access Ltd Mares' Handicap Hurdle,Good To Soft,2m1f169y,4,2,Dramatic Encore,6,M,12-344,Harry Derham,Paul OBrien,163,113.0,119.0,113.0,p,0.21582314,0.25131065,3,3,21.6,25.1
+15:45,Plumpton,Southern Cranes & Access Ltd Mares' Handicap Hurdle,Good To Soft,2m1f169y,4,1,Al Sayah,6,M,-11234,Neil Mulholland,Richie McLernon,168,118.0,116.0,92.0,p,0.18527566,0.23102477,4,4,18.5,23.1
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,5,Alfies Princess,9,M,2/2-17,Sam Thomas,Dylan Johnston,161,122.0,140.0,119.0,t,0.20827924,0.17623645,1,1,20.8,17.6
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,3,Fortunate Man,7,G,34-135,Jonjo & A J ONeill,Jonjo ONeill Jr,166,127.0,139.0,106.0,tp,0.1870578,0.1444734,2,2,18.7,14.4
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,7,Puddlesinthepark,8,G,11519U,Mrs C Williams,Conor Ring,150,111.0,136.0,99.0,,0.108745046,0.1413647,3,3,10.9,14.1
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,8,Genietoile,8,G,82/3F2,Rebecca Curtis,Ben Jones,149,110.0,135.0,122.0,,0.108745046,0.086292446,3,7,10.9,8.6
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,2,Saint Palais,9,G,6-U577,Richard J Bandey,Harry Bannister,166,127.0,137.0,121.0,,0.09516679,0.09782066,5,6,9.5,9.8
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,9,Face dMusic,7,G,4P4312,Katy Price,Shane Quinlan,147,108.0,134.0,68.0,b,0.09516679,0.0787712,5,8,9.5,7.9
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,4,Big City Roller,8,G,/1-516,Charlie Longsdon,Lilly Pinchin,164,125.0,134.0,100.0,p,0.08926051,0.10304377,7,5,8.9,10.3
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,1,Loughderg Rocco,10,G,7/21/8,Olly Murphy,Sean Bowen,168,129.0,136.0,96.0,p,0.08494854,0.12542352,8,4,8.5,12.5
+16:00,Ffos Las,"Sarnau Stables Joins Barry Murphy Racing ""Welsh Gold Cup"" Handicap Chase (GBB Race)",Soft,2m7f177y,9,6,Karuma Grey,8,G,P-P2PF,Barry John Murphy,Shane Fenelon,153,114.0,139.0,107.0,,0.022630226,0.046573862,9,9,2.3,4.7
+16:15,Plumpton,Weatherbys nhstallions.co.uk Handicap Chase,Good,3m1f157y,7,4,Illogical Logic,8,G,3PP223,Christian Williams,Jack Tudor,160,90.0,104.0,97.0,,0.22269629,0.17006932,1,2,22.3,17.0
+16:15,Plumpton,Weatherbys nhstallions.co.uk Handicap Chase,Good,3m1f157y,7,3,Inedit De Mee,8,G,643-39,Toby Lawes,Kevin Brogan,164,94.0,100.0,78.0,tp,0.19132271,0.12904789,2,6,19.1,12.9
+16:15,Plumpton,Weatherbys nhstallions.co.uk Handicap Chase,Good,3m1f157y,7,7,Ballygelly,8,M,7P1P-U,Emma-Jane Bishop,Liam Harrison,144,74.0,102.0,73.0,ht,0.16159402,0.13269442,3,5,16.2,13.3
+16:15,Plumpton,Weatherbys nhstallions.co.uk Handicap Chase,Good,3m1f157y,7,1,Ferret Jeeter,9,G,1F1312,Anthony Honeyball,Chad Bament,168,98.0,88.0,87.0,t,0.14141686,0.17095184,4,1,14.1,17.1
+16:15,Plumpton,Weatherbys nhstallions.co.uk Handicap Chase,Good,3m1f157y,7,6,Imperial Pride,10,M,-PP4P1,David Dennis,Tom Bellamy,149,79.0,101.0,77.0,tp,0.11882764,0.133679,5,4,11.9,13.4
+16:15,Plumpton,Weatherbys nhstallions.co.uk Handicap Chase,Good,3m1f157y,7,2,West Orchard,9,G,31-252,Joe Tizzard,Brendan Powell,167,97.0,104.0,67.0,p,0.09955052,0.1540462,6,3,10.0,15.4
+16:15,Plumpton,Weatherbys nhstallions.co.uk Handicap Chase,Good,3m1f157y,7,5,School For Scandal,11,G,141745,Joe Tickle,Taylor Fisher,150,80.0,101.0,95.0,,0.064591974,0.109511316,7,7,6.5,11.0
+16:30,Ffos Las,Blackmores Handicap Hurdle,Soft,2m4f,8,3,Jukebox Fury,7,G,/5011-,Nicky Henderson,James Bowen,165,107.0,112.0,95.0,,0.28732824,0.18543477,1,1,28.7,18.5
+16:30,Ffos Las,Blackmores Handicap Hurdle,Soft,2m4f,8,7,Gustapof,5,G,2-P864,Rebecca Curtis,Ben Jones,160,102.0,108.0,99.0,h,0.1312858,0.08542303,2,7,13.1,8.5
+16:30,Ffos Las,Blackmores Handicap Hurdle,Soft,2m4f,8,8,Jacks Jury,6,G,335366,Barry John Murphy,Callum Pritchard,149,91.0,111.0,98.0,tp,0.11718937,0.12314731,3,4,11.7,12.3
+16:30,Ffos Las,Blackmores Handicap Hurdle,Soft,2m4f,8,2,Double Click,8,G,6-24P4,Jamie Snowden,Gavin Sheehan,168,110.0,109.0,92.0,b,0.09932202,0.11744203,4,5,9.9,11.7
+16:30,Ffos Las,Blackmores Handicap Hurdle,Soft,2m4f,8,4,Close Combat,5,G,21-77P,Nigel Hawke,Bryan Carver,164,106.0,106.0,99.0,,0.09932202,0.08977785,4,6,9.9,9.0
+16:30,Ffos Las,Blackmores Handicap Hurdle,Soft,2m4f,8,6,Sioux Falls,6,G,543,Mrs C Williams,Conor Ring,160,102.0,111.0,101.0,,0.094727345,0.17335723,6,2,9.5,17.3
+16:30,Ffos Las,Blackmores Handicap Hurdle,Soft,2m4f,8,1,El Gavilan,5,G,072111,Clive Boultbee-Brooks,Richard Patrick,169,111.0,112.0,98.0,tp,0.09241875,0.1646606,7,3,9.2,16.5
+16:30,Ffos Las,Blackmores Handicap Hurdle,Soft,2m4f,8,5,Up To Trix,6,G,432,Olly Murphy,Sean Bowen,164,106.0,108.0,83.0,,0.07840648,0.060757205,8,8,7.8,6.1
+16:45,Plumpton,Kalm Club Handicap Hurdle,Good To Soft,2m4f116y,7,1,Ghasham,7,G,426345,Dan Skelton,Harry Atkins,168,100.0,102.0,95.0,p,0.38764054,0.23979075,1,2,38.8,24.0
+16:45,Plumpton,Kalm Club Handicap Hurdle,Good To Soft,2m4f116y,7,5,Junior Des Mottes,7,G,3P1132,Nick Scholfield,Jack Quinlan,153,85.0,101.0,82.0,p,0.2892742,0.24177139,2,1,28.9,24.2
+16:45,Plumpton,Kalm Club Handicap Hurdle,Good To Soft,2m4f116y,7,4,Eliza Dolittle,8,M,1-5521,Nick Gifford,Tabitha Worsley,155,87.0,98.0,63.0,,0.14395444,0.16124439,3,3,14.4,16.1
+16:45,Plumpton,Kalm Club Handicap Hurdle,Good To Soft,2m4f116y,7,7,Ephyra,5,M,5756,Andy Irvine,Caoilin Quinn,150,82.0,100.0,50.0,,0.08103458,0.09844045,4,5,8.1,9.8
+16:45,Plumpton,Kalm Club Handicap Hurdle,Good To Soft,2m4f116y,7,6,Kap De Triomphe,6,G,775-85,Christian Williams,Jack Tudor,152,84.0,101.0,80.0,p,0.051525198,0.14597957,5,4,5.2,14.6
+16:45,Plumpton,Kalm Club Handicap Hurdle,Good To Soft,2m4f116y,7,3,Taritino,6,G,-25561,Joe Tickle,Taylor Fisher,156,88.0,102.0,87.0,,0.040456012,0.079553165,6,6,4.0,8.0
+16:45,Plumpton,Kalm Club Handicap Hurdle,Good To Soft,2m4f116y,7,2,Bread And Butter,11,G,P7838P,Cynthia Woods,James Best,163,95.0,101.0,100.0,t,0.0061150896,0.033220287,7,7,0.6,3.3
+17:00,Ffos Las,Turf Services Mares' Open Maiden National Hunt Flat Race (Category 3 Elimination) (GBB Race),Soft,1m7f182y,6,2,Diamond White,5,M,33,Jonjo & A J ONeill,Jonjo ONeill Jr,156,,103.0,86.0,,0.33036757,0.24068642,1,1,33.0,24.1
+17:00,Ffos Las,Turf Services Mares' Open Maiden National Hunt Flat Race (Category 3 Elimination) (GBB Race),Soft,1m7f182y,6,6,Port And Brandy,6,M,3,Mickey Bowen,Sean Bowen,156,,100.0,60.0,,0.21904771,0.22723462,2,2,21.9,22.7
+17:00,Ffos Las,Turf Services Mares' Open Maiden National Hunt Flat Race (Category 3 Elimination) (GBB Race),Soft,1m7f182y,6,1,Atlantic Blue,5,M,7,Henry Daly,Stan Sheppard,156,,78.0,26.0,,0.17846887,0.15899265,3,3,17.8,15.9
+17:00,Ffos Las,Turf Services Mares' Open Maiden National Hunt Flat Race (Category 3 Elimination) (GBB Race),Soft,1m7f182y,6,5,Mirabello,5,M,,Jamie Snowden,Gavin Sheehan,156,,,,,0.14074545,0.15055993,4,4,14.1,15.1
+17:00,Ffos Las,Turf Services Mares' Open Maiden National Hunt Flat Race (Category 3 Elimination) (GBB Race),Soft,1m7f182y,6,3,Galatrona,5,M,,Charlie Longsdon,Jonathan Burke,156,,,,,0.083826415,0.1112632,5,5,8.4,11.1
+17:00,Ffos Las,Turf Services Mares' Open Maiden National Hunt Flat Race (Category 3 Elimination) (GBB Race),Soft,1m7f182y,6,4,Johnnys Belle,6,M,,Barry John Murphy,James Bowen,156,,,,,0.047543973,0.1112632,6,5,4.8,11.1
+17:15,Plumpton,Hop On Down To The Easter Festival Open National Hunt Flat Race (Category 1 Elimination) (GBB Race),Good To Soft,2m1f169y,5,5,Secret Des Lune,5,M,22,Ben Clarke,Sam Twiston-Davies,152,,118.0,113.0,,0.42714053,0.28910735,1,1,42.7,28.9
+17:15,Plumpton,Hop On Down To The Easter Festival Open National Hunt Flat Race (Category 1 Elimination) (GBB Race),Good To Soft,2m1f169y,5,1,Double The Dance,5,G,22,Gary & Josh Moore,Caoilin Quinn,159,,115.0,66.0,,0.2471085,0.24910408,2,2,24.7,24.9
+17:15,Plumpton,Hop On Down To The Easter Festival Open National Hunt Flat Race (Category 1 Elimination) (GBB Race),Good To Soft,2m1f169y,5,2,Soldier Poet,5,G,25,Nick Gifford,James Davies,159,,106.0,81.0,,0.15691914,0.23311423,3,3,15.7,23.3
+17:15,Plumpton,Hop On Down To The Easter Festival Open National Hunt Flat Race (Category 1 Elimination) (GBB Race),Good To Soft,2m1f169y,5,3,Getmyfriend,5,M,,Dan Skelton,Kielan Woods,152,,,,,0.09371522,0.11733398,4,4,9.4,11.7
+17:15,Plumpton,Hop On Down To The Easter Festival Open National Hunt Flat Race (Category 1 Elimination) (GBB Race),Good To Soft,2m1f169y,5,4,Luna Marquesa,5,M,,Joe Tizzard,Brendan Powell,152,,,,,0.075116634,0.11134034,5,5,7.5,11.1
+17:30,Wolverhampton (AW),Read Meg Nicholls' Blog At betmgm.co.uk Handicap,Standard,1m4f51y,5,2,Five Moons,3,F,7-44,Simon & Ed Crisford,Jack Mitchell,133,70.0,76.0,37.0,,0.301498,0.22132514,1,2,30.1,22.1
+17:30,Wolverhampton (AW),Read Meg Nicholls' Blog At betmgm.co.uk Handicap,Standard,1m4f51y,5,1,Magnetude,3,C,843-,James Owen,Luke Morris,135,72.0,77.0,49.0,,0.27358347,0.21462855,2,4,27.4,21.5
+17:30,Wolverhampton (AW),Read Meg Nicholls' Blog At betmgm.co.uk Handicap,Standard,1m4f51y,5,3,Gaelic Approach,3,G,525-,Charlie Johnston,Billy Loughnane,131,68.0,77.0,14.0,,0.23539293,0.26833677,3,1,23.5,26.8
+17:30,Wolverhampton (AW),Read Meg Nicholls' Blog At betmgm.co.uk Handicap,Standard,1m4f51y,5,4,Magician Of Riga,3,C,580-5,Richard Hannon,Sean Levey,129,66.0,74.0,51.0,,0.16119312,0.22117886,4,3,16.1,22.1
+17:30,Wolverhampton (AW),Read Meg Nicholls' Blog At betmgm.co.uk Handicap,Standard,1m4f51y,5,5,Fuzeyya,3,F,005-,Jedd OKeeffe,Jack Dace,122,59.0,70.0,12.0,p,0.028332483,0.07453067,5,5,2.8,7.5
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,5,Desiderata,6,G,423226,Thomas Faulkner,Billy Loughnane,135,49.0,58.0,47.0,,0.23411733,0.16706054,1,2,23.4,16.7
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,10,Sold Out,4,G,-54144,John Mackie,Stevie Donohoe,135,50.0,63.0,51.0,,0.23411733,0.21373737,1,1,23.4,21.4
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,8,Pure Theory,4,F,4-4546,Stephanie Cassidy,Hollie Doyle,135,49.0,59.0,50.0,p,0.13091698,0.16408578,3,3,13.1,16.4
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,1,Lhebayeb,8,M,-73591,Richard Price,Hector Crouch,139,47.0,57.0,48.0,h,0.07903975,0.09269417,4,4,7.9,9.3
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,4,Darlas Secret,4,G,6-5370,Seb Spencer,Dale Swift,135,45.0,53.0,32.0,p,0.07255329,0.09192265,5,5,7.3,9.2
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,12,Will Be King,10,G,00/06/,John C McConnell,Luke Morris,135,44.0,58.0,9.0,t,0.06572002,0.06544591,6,6,6.6,6.5
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,3,Bizarre Law,7,G,5700-0,Michael Herrington,David Probert,135,50.0,59.0,41.0,p,0.041150175,0.034918293,7,9,4.1,3.5
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,6,Fullofbrightideas,5,G,7006/,Shaun Lycett,Gina Mangan,135,50.0,11.0,6.0,,0.040430523,0.04378926,8,7,4.0,4.4
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,9,Resilient Lady,4,F,8-6656,Gary Brown,Charles Bishop,135,47.0,52.0,49.0,p,0.029774556,0.034918293,9,9,3.0,3.5
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,7,Nutcracker,4,G,74-977,Tony Carroll,William Carson,135,43.0,53.0,40.0,,0.024263674,0.028665528,10,11,2.4,2.9
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,11,United Force,6,G,7670-4,Clare Hobson,Marco Ghiani,135,43.0,53.0,34.0,,0.024263674,0.01897292,10,12,2.4,1.9
+18:00,Wolverhampton (AW),Always Gamble Responsibly At BetMGM Classified Stakes,Standard,1m142y,12,2,Angels Call,5,G,67380-,Nikki Evans,Kieran ONeill,135,47.0,56.0,48.0,,0.02365265,0.04378926,12,7,2.4,4.4
+18:30,Wolverhampton (AW),"Win £250,000 With BetMGM's Golden Goals Novice Stakes",Standard,1m142y,6,1,Ted Le Saux,4,G,2-1,Andrew Balding,Oisin Murphy,137,,88.0,47.0,,0.49345133,0.2794933,1,1,49.3,27.9
+18:30,Wolverhampton (AW),"Win £250,000 With BetMGM's Golden Goals Novice Stakes",Standard,1m142y,6,5,Laravie,7,M,7,James Owen,Mason Paetel,125,,62.0,44.0,,0.13436387,0.1650584,2,3,13.4,16.5
+18:30,Wolverhampton (AW),"Win £250,000 With BetMGM's Golden Goals Novice Stakes",Standard,1m142y,6,2,Belltony,4,G,74,Richard Price,Finley Marsh,130,,62.0,36.0,,0.122774884,0.20269622,3,2,12.3,20.3
+18:30,Wolverhampton (AW),"Win £250,000 With BetMGM's Golden Goals Novice Stakes",Standard,1m142y,6,3,Porters Song,4,G,5-,Edward Bethell,Callum Rodriguez,130,,68.0,,,0.122774884,0.16209789,3,4,12.3,16.2
+18:30,Wolverhampton (AW),"Win £250,000 With BetMGM's Golden Goals Novice Stakes",Standard,1m142y,6,6,Mobberley Rose,4,F,,Roger Varian,Jack Mitchell,125,,,,,0.122774884,0.12999621,3,5,12.3,13.0
+18:30,Wolverhampton (AW),"Win £250,000 With BetMGM's Golden Goals Novice Stakes",Standard,1m142y,6,4,Keep It Cool,6,M,,James Owen,Christian Howarth,125,,50.0,23.0,,0.0038601644,0.060657956,6,6,0.4,6.1
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,12,South Coast Star,3,F,774-35,Hugo Palmer,David Probert,125,55.0,73.0,48.0,,0.21045257,0.11602199,1,3,21.0,11.6
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,5,Corniche Girl,3,F,46-236,Richard Hannon,Sean Levey,133,63.0,71.0,65.0,,0.14485356,0.12462026,2,2,14.5,12.5
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,11,Pink Diamond Girl,3,F,6-47,Keiran Burke,Marco Ghiani,126,56.0,65.0,41.0,,0.10042407,0.12521143,3,1,10.0,12.5
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,2,Galileo Charm,3,F,24-632,Marco Botti,Robert Havlin,135,65.0,70.0,55.0,p,0.09452259,0.06499679,4,9,9.5,6.5
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,7,My Dad Tom,3,G,24466-,Richard Hannon,Tyrese Cameron,132,62.0,70.0,47.0,p,0.07537134,0.06554232,5,7,7.5,6.6
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,3,Sup Of Red,3,F,465-42,Adrian Wintle,Finley Marsh,134,64.0,70.0,63.0,,0.0688705,0.08247993,6,5,6.9,8.2
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,8,Attention Seeker,3,G,246-77,Brian Ellison,Ben Robinson,131,61.0,74.0,53.0,,0.0688705,0.06554232,6,7,6.9,6.6
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,1,Watchdog,3,G,8621-4,Richard Fahey,Harry Russell,135,65.0,70.0,58.0,,0.06394375,0.07826671,8,6,6.4,7.8
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,6,Legacy Rock,3,G,506-,Dr Richard Newland & Jamie Insole,Hollie Doyle,133,63.0,66.0,61.0,,0.06394375,0.10068216,8,4,6.4,10.1
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,4,Sand Lily,3,F,474-,Charlie Johnston,Billy Loughnane,133,63.0,62.0,27.0,,0.048903644,0.06499679,10,9,4.9,6.5
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,9,Baggie Boy,3,G,9-68,Tony Carroll,Jack Doughty,128,58.0,65.0,19.0,,0.034383174,0.05296703,11,12,3.4,5.3
+19:00,Wolverhampton (AW),Bet £10 Get £40 With BetMGM Handicap,Standard,7f36y,12,10,Dora Vita,3,F,8-04,Richard Phillips,Sean D Bowen,128,58.0,68.0,48.0,,0.025460524,0.058672287,12,11,2.5,5.9
+19:30,Wolverhampton (AW),Midnite Are Upping The Betting Game Handicap,Standard,6f20y,7,1,Beauzon,7,G,111111,Ian Williams,Charles Bishop,139,74.0,82.0,63.0,p,0.2076132,0.21158172,1,1,20.8,21.2
+19:30,Wolverhampton (AW),Midnite Are Upping The Betting Game Handicap,Standard,6f20y,7,7,Silky Robin,5,G,536-86,Brian Toomey,Sean D Bowen,127,62.0,81.0,75.0,b,0.20655376,0.17333376,2,2,20.7,17.3
+19:30,Wolverhampton (AW),Midnite Are Upping The Betting Game Handicap,Standard,6f20y,7,4,Mart,5,G,-72406,Dylan Cunha,Luke Morris,130,65.0,80.0,78.0,,0.16548343,0.15119228,3,3,16.5,15.1
+19:30,Wolverhampton (AW),Midnite Are Upping The Betting Game Handicap,Standard,6f20y,7,5,Water Of Leith,8,G,244223,Jim Goldie,Billy Loughnane,128,63.0,81.0,67.0,,0.13411245,0.14009607,4,5,13.4,14.0
+19:30,Wolverhampton (AW),Midnite Are Upping The Betting Game Handicap,Standard,6f20y,7,6,Twilight Madness,8,H,8-2932,Simon Hodgson,Alistair Rawlinson,128,63.0,80.0,74.0,p,0.12007893,0.09483441,5,6,12.0,9.5
+19:30,Wolverhampton (AW),Midnite Are Upping The Betting Game Handicap,Standard,6f20y,7,3,Digital,8,G,215129,Ruth Carr,James Sullivan,132,67.0,81.0,68.0,p,0.09856363,0.15047844,6,4,9.9,15.0
+19:30,Wolverhampton (AW),Midnite Are Upping The Betting Game Handicap,Standard,6f20y,7,2,Mumayaz,7,G,-35746,Tony Carroll,Jack Doughty,133,68.0,79.0,51.0,t,0.06759462,0.07848335,7,7,6.8,7.8
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,4,Kento,5,G,76-221,Tony Carroll,Billy Loughnane,135,50.0,62.0,46.0,p,0.22327119,0.15200189,1,3,22.3,15.2
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,5,Kipp Kelly,5,G,573183,Derek Shaw,Joanna Mason,135,50.0,61.0,53.0,,0.18673506,0.16824827,2,1,18.7,16.8
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,9,Second Collection,10,M,433415,Tony Carroll,Myla Coppins,135,48.0,59.0,48.0,,0.14422709,0.16824827,3,1,14.4,16.8
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,1,Captain Kinsella,4,G,586774,John Gallagher,Luke Morris,135,48.0,57.0,56.0,t,0.12381327,0.13897617,4,5,12.4,13.9
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,6,Lion Ring,8,G,-37151,Andrew J Martin,Ryan Kavanagh,135,48.0,58.0,50.0,,0.105997205,0.14927554,5,4,10.6,14.9
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,3,Global Effort,6,G,8-7369,Phil McEntee,Grace McEntee,135,46.0,54.0,48.0,v,0.06749237,0.09375125,6,6,6.7,9.4
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,8,Phils Dream,6,G,0/0-02,John C McConnell,Hollie Doyle,135,47.0,60.0,42.0,tv,0.06749237,0.06748703,6,7,6.7,6.7
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,7,Moonhall Lass,4,F,0076-0,James Owen,Christian Howarth,135,45.0,52.0,50.0,p,0.05409793,0.032436743,8,8,5.4,3.2
+20:00,Wolverhampton (AW),Join The Midnite Movement Classified Stakes,Standard,5f21y,9,2,Coco Hill,6,M,V34-68,Adrian Wintle,Finley Marsh,135,41.0,50.0,31.0,,0.026873482,0.029574841,9,9,2.7,3.0
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,6,Chilliconcarneigh,3,G,-33337,David Evans,Pat Cosgrave,129,54.0,66.0,63.0,,0.20730981,0.1540448,1,1,20.7,15.4
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,4,Time To Sparkle,3,F,087-49,James Keane,Jack Mitchell,130,55.0,63.0,40.0,,0.1733856,0.1540448,2,1,17.3,15.4
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,7,Laser Luck,3,F,530-60,Gemma Tutty,George Wood,129,54.0,63.0,49.0,,0.14196227,0.12724385,3,3,14.2,12.7
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,5,Crown The Future,3,G,615-43,Tony Carroll,William Carson,130,55.0,66.0,53.0,p,0.11990345,0.12724385,4,3,12.0,12.7
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,9,Sorted,3,G,870-4,Mark Loughnane,Billy Loughnane,124,49.0,61.0,56.0,,0.11990345,0.09297363,4,6,12.0,9.3
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,2,Karakula Dancer,3,G,6-1212,James Ferguson,Harry Vigors,134,59.0,65.0,52.0,p,0.09366517,0.12724385,6,3,9.4,12.7
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,1,Crimson Rambler,3,G,-22211,George Scott,Liam Wright,141,66.0,67.0,50.0,b,0.051485274,0.05075144,7,9,5.1,5.1
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,3,Hazy Cosmic Jane,3,F,30248-,D Donovan,David Probert,132,57.0,65.0,41.0,,0.042916697,0.086134434,8,7,4.3,8.6
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,8,Thependleburyfox,3,F,0-96,Gemma Tutty,William Pyle,127,52.0,61.0,40.0,,0.02495233,0.0222293,9,10,2.5,2.2
+20:30,Wolverhampton (AW),Daily Profit Boosts At betmgm.co.uk Handicap,Standard,1m142y,10,10,Lucky Sevens,3,G,947,James Owen,Luke Morris,121,46.0,55.0,,,0.024515951,0.0580901,10,8,2.5,5.8
