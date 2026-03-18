@@ -247,6 +247,22 @@
   .track-sr { font-size: 0.78em; line-height: 1.6; color: var(--text-muted); }
   .sr-label { font-weight: 600; color: var(--text); }
 
+  /* ── Sort controls ── */
+  .sort-bar {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 0 4px;
+    font-size: 0.85em; color: var(--text-muted);
+  }
+  .sort-bar-label { font-weight: 600; color: var(--text-muted); margin-right: 4px; }
+  .sort-btn {
+    background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 16px; padding: 4px 14px;
+    color: var(--text); font-size: 0.85em; cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .sort-btn:hover { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); }
+  .sort-btn.active { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+
   /* ── Back to top ── */
   .back-to-top {
     display: block; padding: 6px 0;
@@ -316,8 +332,15 @@
       <div class="page-subtitle">2026-03-18 &nbsp;·&nbsp; 22 races</div>
     </div>
     <div class="page-meta">
-      Generated 18 Mar 2026 22:58
+      Generated 18 Mar 2026 23:06
     </div>
+  </div>
+
+  <div class="sort-bar">
+    <span class="sort-bar-label">Sort by:</span>
+    <button class="sort-btn active" onclick="sortRaces('course')">Course</button>
+    <button class="sort-btn" onclick="sortRaces('time')">Time</button>
+    <button class="sort-btn" onclick="sortRaces('confidence')">Confidence</button>
   </div>
 <div class="toc"><div class="toc-races"><div class="toc-title">Races</div>
 <div class="toc-course-row"><span class="toc-course-name">Hereford</span><div class="toc-times"><a class="toc-item" href="#race-913425">14:00</a><a class="toc-item" href="#race-913422">14:30</a><a class="toc-item" href="#race-913427">15:00</a><a class="toc-item" href="#race-913421">15:30</a><a class="toc-item" href="#race-913426">16:00</a><a class="toc-item" href="#race-913423">16:30</a><a class="toc-item" href="#race-913424">17:00</a></div></div>
@@ -333,7 +356,7 @@
 </div>
   <div class="course-label course-label-first">Hereford</div>
 
-  <div class="race-card" id="race-913425">
+  <div class="race-card" id="race-913425" data-course="Hereford" data-time="14:00" data-conf="5">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">14:00</div>
@@ -473,7 +496,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913422">
+  <div class="race-card" id="race-913422" data-course="Hereford" data-time="14:30" data-conf="5">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">14:30</div>
@@ -613,7 +636,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913427">
+  <div class="race-card" id="race-913427" data-course="Hereford" data-time="15:00" data-conf="7">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">15:00</div>
@@ -783,7 +806,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913421">
+  <div class="race-card" id="race-913421" data-course="Hereford" data-time="15:30" data-conf="6">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">15:30</div>
@@ -923,7 +946,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913426">
+  <div class="race-card" id="race-913426" data-course="Hereford" data-time="16:00" data-conf="2">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">16:00</div>
@@ -1078,7 +1101,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913423">
+  <div class="race-card" id="race-913423" data-course="Hereford" data-time="16:30" data-conf="2">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">16:30</div>
@@ -1233,7 +1256,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913424">
+  <div class="race-card" id="race-913424" data-course="Hereford" data-time="17:00" data-conf="2">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">17:00</div>
@@ -1404,7 +1427,7 @@
   </div>
   <div class="course-label">Huntingdon</div>
 
-  <div class="race-card" id="race-913433">
+  <div class="race-card" id="race-913433" data-course="Huntingdon" data-time="14:15" data-conf="6">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">14:15</div>
@@ -1589,7 +1612,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913430">
+  <div class="race-card" id="race-913430" data-course="Huntingdon" data-time="14:45" data-conf="3">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">14:45</div>
@@ -1684,7 +1707,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913428">
+  <div class="race-card" id="race-913428" data-course="Huntingdon" data-time="15:15" data-conf="3">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">15:15</div>
@@ -1809,7 +1832,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913429">
+  <div class="race-card" id="race-913429" data-course="Huntingdon" data-time="15:45" data-conf="7">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">15:45</div>
@@ -2024,7 +2047,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913432">
+  <div class="race-card" id="race-913432" data-course="Huntingdon" data-time="16:15" data-conf="5">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">16:15</div>
@@ -2164,7 +2187,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913431">
+  <div class="race-card" id="race-913431" data-course="Huntingdon" data-time="16:45" data-conf="5">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">16:45</div>
@@ -2289,7 +2312,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913434">
+  <div class="race-card" id="race-913434" data-course="Huntingdon" data-time="17:15" data-conf="3">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">17:15</div>
@@ -2550,7 +2573,7 @@
   </div>
   <div class="course-label">Kempton Aw</div>
 
-  <div class="race-card" id="race-913581">
+  <div class="race-card" id="race-913581" data-course="Kempton Aw" data-time="16:55" data-conf="2">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">16:55</div>
@@ -2660,7 +2683,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913580">
+  <div class="race-card" id="race-913580" data-course="Kempton Aw" data-time="17:30" data-conf="7">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">17:30</div>
@@ -2815,7 +2838,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913585">
+  <div class="race-card" id="race-913585" data-course="Kempton Aw" data-time="18:00" data-conf="3">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">18:00</div>
@@ -2970,7 +2993,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913579">
+  <div class="race-card" id="race-913579" data-course="Kempton Aw" data-time="18:30" data-conf="2">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">18:30</div>
@@ -3110,7 +3133,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913583">
+  <div class="race-card" id="race-913583" data-course="Kempton Aw" data-time="19:00" data-conf="2">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">19:00</div>
@@ -3340,7 +3363,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913584">
+  <div class="race-card" id="race-913584" data-course="Kempton Aw" data-time="19:30" data-conf="4">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">19:30</div>
@@ -3495,7 +3518,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-913582">
+  <div class="race-card" id="race-913582" data-course="Kempton Aw" data-time="20:00" data-conf="3">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">20:00</div>
@@ -3650,7 +3673,7 @@
     </div>
   </div>
 
-  <div class="race-card" id="race-915772">
+  <div class="race-card" id="race-915772" data-course="Kempton Aw" data-time="20:30" data-conf="3">
     <div class="race-header">
       <div style="display:flex;align-items:flex-start;gap:14px">
         <div class="race-time">20:30</div>
@@ -3804,4 +3827,51 @@
     <a class="back-to-top" href="#top">&#8593; Back to top</a>
     </div>
   </div>
+<script>
+function sortRaces(by) {
+  // Update active button
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  event.currentTarget.classList.add('active');
+
+  const container = document.getElementById('top');
+
+  // Gather all race-cards (with their preceding course-label if present)
+  const cards = Array.from(container.querySelectorAll('.race-card'));
+
+  // Build sortable list: each entry = { card, label (or null), sortKey }
+  const items = cards.map(card => {
+    const prev = card.previousElementSibling;
+    const label = (prev && prev.classList.contains('course-label')) ? prev : null;
+    let key;
+    if (by === 'course') {
+      key = (card.dataset.course || '') + card.dataset.time;
+    } else if (by === 'time') {
+      key = card.dataset.time + (card.dataset.course || '');
+    } else {
+      // confidence descending — negate by using large number minus value
+      key = String(1000 - parseInt(card.dataset.conf || '0')).padStart(4, '0') + card.dataset.time;
+    }
+    return { card, label, key };
+  });
+
+  items.sort((a, b) => a.key < b.key ? -1 : a.key > b.key ? 1 : 0);
+
+  // Re-append in new order; course-labels are rebuilt per-sort
+  // First remove all existing course-labels and race-cards from container
+  container.querySelectorAll('.race-card, .course-label').forEach(el => el.remove());
+
+  let lastCourse = null;
+  items.forEach(({ card }) => {
+    const course = card.dataset.course;
+    if (by === 'course' && course !== lastCourse) {
+      const lbl = document.createElement('div');
+      lbl.className = 'course-label' + (lastCourse === null ? ' course-label-first' : '');
+      lbl.textContent = course;
+      container.appendChild(lbl);
+      lastCourse = course;
+    }
+    container.appendChild(card);
+  });
+}
+</script>
 </div></body></html>
