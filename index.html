@@ -247,17 +247,16 @@
   .track-sr { font-size: 0.78em; line-height: 1.6; color: var(--text-muted); }
   .sr-label { font-weight: 600; color: var(--text); }
 
-  /* ── Sort controls ── */
-  .sort-bar {
-    display: flex; align-items: center; gap: 10px;
-    padding: 10px 0 4px;
-    font-size: 0.85em; color: var(--text-muted);
+  /* ── Sort controls (inside TOC) ── */
+  .toc-sort {
+    flex-shrink: 0; width: 160px;
+    border-left: 1px solid var(--border); padding-left: 20px;
+    display: flex; flex-direction: column; gap: 8px;
   }
-  .sort-bar-label { font-weight: 600; color: var(--text-muted); margin-right: 4px; }
   .sort-btn {
     background: var(--surface2); border: 1px solid var(--border);
-    border-radius: 16px; padding: 4px 14px;
-    color: var(--text); font-size: 0.85em; cursor: pointer;
+    border-radius: 16px; padding: 5px 14px; text-align: center;
+    color: var(--text); font-size: 0.83em; cursor: pointer;
     transition: background 0.15s, border-color 0.15s, color 0.15s;
   }
   .sort-btn:hover { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); }
@@ -283,6 +282,9 @@
     .page-meta   { text-align: left; }
 
     .toc { padding: 12px 14px; flex-direction: column; }
+    .toc-sort { width: auto; border-left: none; flex-direction: row; flex-wrap: wrap;
+                border-top: 1px solid var(--border);
+                padding-left: 0; padding-top: 12px; }
     .toc-gate-key { width: auto; border-left: none;
                     border-top: 1px solid var(--border);
                     padding-left: 0; padding-top: 12px; }
@@ -332,21 +334,20 @@
       <div class="page-subtitle">2026-03-18 &nbsp;·&nbsp; 22 races</div>
     </div>
     <div class="page-meta">
-      Generated 18 Mar 2026 23:06
+      Generated 18 Mar 2026 23:11
     </div>
-  </div>
-
-  <div class="sort-bar">
-    <span class="sort-bar-label">Sort by:</span>
-    <button class="sort-btn active" onclick="sortRaces('course')">Course</button>
-    <button class="sort-btn" onclick="sortRaces('time')">Time</button>
-    <button class="sort-btn" onclick="sortRaces('confidence')">Confidence</button>
   </div>
 <div class="toc"><div class="toc-races"><div class="toc-title">Races</div>
 <div class="toc-course-row"><span class="toc-course-name">Hereford</span><div class="toc-times"><a class="toc-item" href="#race-913425">14:00</a><a class="toc-item" href="#race-913422">14:30</a><a class="toc-item" href="#race-913427">15:00</a><a class="toc-item" href="#race-913421">15:30</a><a class="toc-item" href="#race-913426">16:00</a><a class="toc-item" href="#race-913423">16:30</a><a class="toc-item" href="#race-913424">17:00</a></div></div>
 <div class="toc-course-row"><span class="toc-course-name">Huntingdon</span><div class="toc-times"><a class="toc-item" href="#race-913433">14:15</a><a class="toc-item" href="#race-913430">14:45</a><a class="toc-item" href="#race-913428">15:15</a><a class="toc-item" href="#race-913429">15:45</a><a class="toc-item" href="#race-913432">16:15</a><a class="toc-item" href="#race-913431">16:45</a><a class="toc-item" href="#race-913434">17:15</a></div></div>
 <div class="toc-course-row"><span class="toc-course-name">Kempton Aw</span><div class="toc-times"><a class="toc-item" href="#race-913581">16:55</a><a class="toc-item" href="#race-913580">17:30</a><a class="toc-item" href="#race-913585">18:00</a><a class="toc-item" href="#race-913579">18:30</a><a class="toc-item" href="#race-913583">19:00</a><a class="toc-item" href="#race-913584">19:30</a><a class="toc-item" href="#race-913582">20:00</a><a class="toc-item" href="#race-915772">20:30</a></div></div>
 </div>
+  <div class="toc-sort">
+    <div class="toc-title">Sort by</div>
+    <button class="sort-btn active" onclick="sortRaces('course', this)">Course</button>
+    <button class="sort-btn" onclick="sortRaces('time', this)">Time</button>
+    <button class="sort-btn" onclick="sortRaces('confidence', this)">Confidence</button>
+  </div>
   <div class="toc-gate-key">
     <div class="toc-title">Race type key</div>
     <div class="gate-key-row"><span class="gate-badge gate-high">Formful race</span><span class="gate-key-desc">Good predictability</span></div>
@@ -3828,47 +3829,43 @@
     </div>
   </div>
 <script>
-function sortRaces(by) {
-  // Update active button
+function sortRaces(by, btn) {
   document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
-  event.currentTarget.classList.add('active');
+  btn.classList.add('active');
 
   const container = document.getElementById('top');
-
-  // Gather all race-cards (with their preceding course-label if present)
   const cards = Array.from(container.querySelectorAll('.race-card'));
 
-  // Build sortable list: each entry = { card, label (or null), sortKey }
-  const items = cards.map(card => {
-    const prev = card.previousElementSibling;
-    const label = (prev && prev.classList.contains('course-label')) ? prev : null;
-    let key;
+  cards.sort((a, b) => {
     if (by === 'course') {
-      key = (card.dataset.course || '') + card.dataset.time;
+      const c = (a.dataset.course || '').localeCompare(b.dataset.course || '');
+      return c !== 0 ? c : (a.dataset.time || '').localeCompare(b.dataset.time || '');
     } else if (by === 'time') {
-      key = card.dataset.time + (card.dataset.course || '');
+      const t = (a.dataset.time || '').localeCompare(b.dataset.time || '');
+      return t !== 0 ? t : (a.dataset.course || '').localeCompare(b.dataset.course || '');
     } else {
-      // confidence descending — negate by using large number minus value
-      key = String(1000 - parseInt(card.dataset.conf || '0')).padStart(4, '0') + card.dataset.time;
+      // confidence: highest first; tie-break by time
+      const ca = parseInt(a.dataset.conf || '0');
+      const cb = parseInt(b.dataset.conf || '0');
+      if (cb !== ca) return cb - ca;
+      return (a.dataset.time || '').localeCompare(b.dataset.time || '');
     }
-    return { card, label, key };
   });
 
-  items.sort((a, b) => a.key < b.key ? -1 : a.key > b.key ? 1 : 0);
-
-  // Re-append in new order; course-labels are rebuilt per-sort
-  // First remove all existing course-labels and race-cards from container
+  // Remove existing labels and cards, then re-insert in new order
   container.querySelectorAll('.race-card, .course-label').forEach(el => el.remove());
 
   let lastCourse = null;
-  items.forEach(({ card }) => {
-    const course = card.dataset.course;
-    if (by === 'course' && course !== lastCourse) {
-      const lbl = document.createElement('div');
-      lbl.className = 'course-label' + (lastCourse === null ? ' course-label-first' : '');
-      lbl.textContent = course;
-      container.appendChild(lbl);
-      lastCourse = course;
+  cards.forEach(card => {
+    if (by === 'course') {
+      const course = card.dataset.course;
+      if (course !== lastCourse) {
+        const lbl = document.createElement('div');
+        lbl.className = 'course-label' + (lastCourse === null ? ' course-label-first' : '');
+        lbl.textContent = course;
+        container.appendChild(lbl);
+        lastCourse = course;
+      }
     }
     container.appendChild(card);
   });
