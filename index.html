@@ -325,13 +325,16 @@
     .race-name { font-size: 0.95em; }
     .conf-badge { font-size: 0.95em; padding: 4px 12px; }
 
-    /* Phone: hide Comment column, keep table scrollable */
+    /* Phone: comment wraps to its own full-width row below the data */
     .col-labels, .runner {
       grid-template-columns: 40px 120px 44px 40px 46px 54px 82px 94px 66px 52px 150px 140px;
       min-width: 900px;
     }
-    .runner > .cell:last-child,
     .col-labels > .col-label:last-child { display: none; }
+    .runner > .cell:last-child {
+      grid-column: 1 / -1;
+      padding: 2px 8px 6px;
+    }
   }
 </style>
 
@@ -345,7 +348,7 @@
       <div class="page-subtitle">2026-03-21 &nbsp;·&nbsp; 44 races</div>
     </div>
     <div class="page-meta">
-      Generated 21 Mar 2026 13:27
+      Generated 21 Mar 2026 13:32
     </div>
   </div>
 <div class="toc"><div class="toc-races"><div class="toc-title">Races</div>
