@@ -307,7 +307,8 @@
     .race-time { font-size: 1.1em; }
 
     .col-labels, .runner {
-      grid-template-columns: 44px 140px 44px 48px 56px 86px 100px 72px 72px 56px 180px 160px;
+      /* Tablet: same 13 cols as desktop but tighter, comment takes remaining space */
+      grid-template-columns: 44px 130px 48px 44px 48px 56px 86px 100px 72px 56px 160px 150px 1fr;
     }
   }
 
@@ -324,11 +325,13 @@
     .race-name { font-size: 0.95em; }
     .conf-badge { font-size: 0.95em; padding: 4px 12px; }
 
-    /* Minimum widths so the table stays readable when scrolling */
+    /* Phone: hide Comment column, keep table scrollable */
     .col-labels, .runner {
-      grid-template-columns: 40px 130px 42px 46px 54px 84px 96px 68px 68px 54px 160px 140px;
-      min-width: 1000px;
+      grid-template-columns: 40px 120px 44px 40px 46px 54px 82px 94px 66px 52px 150px 140px;
+      min-width: 900px;
     }
+    .runner > .cell:last-child,
+    .col-labels > .col-label:last-child { display: none; }
   }
 </style>
 
@@ -342,7 +345,7 @@
       <div class="page-subtitle">2026-03-21 &nbsp;·&nbsp; 44 races</div>
     </div>
     <div class="page-meta">
-      Generated 21 Mar 2026 13:23
+      Generated 21 Mar 2026 13:27
     </div>
   </div>
 <div class="toc"><div class="toc-races"><div class="toc-title">Races</div>
