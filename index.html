@@ -322,12 +322,18 @@
     .race-name { font-size: 0.95em; }
     .conf-badge { font-size: 0.95em; padding: 4px 12px; }
 
-    /* Phone: comment sits inside the horse cell, just shrink it */
+    /* Phone: comment sits inside the horse cell, clamp to 2 lines */
     .col-labels, .runner {
       grid-template-columns: 40px 160px 44px 40px 46px 54px 82px 94px 66px 52px 150px 140px;
       min-width: 900px;
     }
-    .rp-comment { font-size: 0.55em !important; }
+    .rp-comment {
+      font-size: 0.55em !important;
+      display: -webkit-box !important;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
   }
 </style>
 
@@ -341,7 +347,7 @@
       <div class="page-subtitle">2026-03-21 &nbsp;·&nbsp; 44 races</div>
     </div>
     <div class="page-meta">
-      Generated 21 Mar 2026 18:07
+      Generated 21 Mar 2026 18:12
     </div>
   </div>
 <div class="toc"><div class="toc-races"><div class="toc-title">Races</div>
